@@ -12,11 +12,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Load fine-tuned model and tokenizer
-model_path = "model"        # Folder where your model is saved
-tokenizer_path = "tokenizer"  # Folder where your tokenizer is saved
 
-tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
-model = AutoModelForCausalLM.from_pretrained(model_path)
+model = AutoModelForCausalLM.from_pretrained("dialoggpt-finetune-counsellor-data/model")
+tokenizer = AutoTokenizer.from_pretrained("dialoggpt-finetune-counsellor-data/tokenizer")
 
 # Title
 st.title("🧠 Mental Health Chatbot (Fine-tuned DialoGPT)")
