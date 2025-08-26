@@ -69,11 +69,9 @@ Leveraging-AI-to-Improve-Mental-Health-and-Well-being-yuhui/
 
 - Programming Languages: Python
 
-- Frameworks: (e.g., Streamlit for web app)
+- Frameworks: Streamlit for web app
 
-- Libraries: (e.g., scikit-learn, TensorFlow, PyTorch)
-
-- Data Analysis: Pandas, NumPy
+- Libraries: Hugging Face Transformers
 
 - Visualization: Matplotlib, Seaborn
 
@@ -88,8 +86,5 @@ As a contributor to this project, I worked as a **Task 2 & Task 3 lead**, where 
 ## Contact
 
 Feel free to reach out if you have any questions or would like to collaborate!
-
-
-- tes
 
 
